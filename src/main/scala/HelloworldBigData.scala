@@ -15,7 +15,8 @@ def main(args: Array[String]): Unit = {
   println("Votre texte contient : " + comptage_caracters("mon bebe souffre des gaz ;( ") + " caractéres")
   getResultat( 10)
   getResultat( "Léo")
-
+  testWheile(10)
+  testFor()
 }
   // ma premiére fonction //
 
@@ -28,5 +29,23 @@ def main(args: Array[String]): Unit = {
       println("Votre valeur est un entier")
     } else { println("votre valeur n'est pas un entier ")}
   }
+// Structures conditionelles
+  def testWheile (valeur_cond : Int) :Unit = {
+    var i : Int = 0
+    while (i< valeur_cond) {
+      println("itération while N° "+ i)
+      i=i+1
+    }
+  }
+
+
+  def testFor () :Unit = {
+    var i : Int = 0
+    for (i <- 5 to 15 by 2) {
+      println("itération For N° "+ i)
+    }
+  }
+
+
 
 }
