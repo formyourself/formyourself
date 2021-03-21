@@ -1,3 +1,5 @@
+import org.apache.spark.sql.SparkSession
+
 object HelloworldBigData {
 /* Premier programme Scala */
   val ma_var_imm : String = "Nacer" /* Variable immutable */
@@ -8,8 +10,13 @@ def main(args: Array[String]): Unit = {
 
   var test_mu : Int = 15
   test_mu = test_mu +10
-  print(test_mu)
+  println(test_mu)
   val test_immu : Int = 20
-
+  println("Votre texte contient : " + comptage_caracters("qu'avez vous mangé ce matin ? ") + " caractéres")
 }
+  // ma premiére fonction //
+
+  def comptage_caracters (Texte: String) : Int ={
+    Texte.trim.length()
+  }
 }
