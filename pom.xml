@@ -43,6 +43,7 @@
         <scaltest-maven-plugin.version>2.0.0</scaltest-maven-plugin.version>
         <scalatest.version>2.11.6</scalatest.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven-assembly-plugin.jar>package</maven-assembly-plugin.jar>
